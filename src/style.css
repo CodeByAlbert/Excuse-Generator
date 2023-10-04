@@ -1,1 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+button:hover {
+  color: green;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
