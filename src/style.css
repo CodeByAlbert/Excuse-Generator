@@ -1,6 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 button:hover {
   color: green;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#excuseBox {
+  background-color: #21d4fd;
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+
+  position: relative;
+  z-index: 2;
+}
+
+.background-image-file {
+  background-image: url("assets/img/circle backgrounds.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute; /* Changed from relative to absolute */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
 }
